@@ -1,4 +1,4 @@
-name = ViCBiostat theme
+name = ViCBiostat
 description = Based on Fusion starter theme.
 base theme = fusion_core
 core = 7.x
