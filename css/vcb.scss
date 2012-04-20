@@ -4,11 +4,11 @@
 /* Variables
 ------------ */
 
-$col-gill-sans: "Gill Sans", sans-serif;
+$typ-gill-sans: "Gill Sans", sans-serif;
 
-$typ-dark-blue:  #002D6A;    /* RGB 0, 45, 106 */
-$typ-light-blue: #00A4E4;    /* RGB 0, 164, 228 */
-$typ-pink:       #EC008C;    /* RGB 236, 0, 140 */
+$col-dark-blue:  #002D6A;    /* RGB 0, 45, 106 */
+$col-light-blue: #00A4E4;    /* RGB 0, 164, 228 */
+$col-pink:       #EC008C;    /* RGB 236, 0, 140 */
 
 /* Basic Typography & Colors
 -------------------------------------------------------------- */
@@ -124,7 +124,7 @@ caption {
 /* Add general styles for main menu here, such as typography, borders, floats,
   or spacing above/below */
 .main-menu {
-
+    background-color: $col-light-blue;
 }
 
 /* styles for Superfish main menu */
@@ -252,7 +252,7 @@ caption {
 /-------------------------------------------------------------- */
 /* Page and full node titles */
 h1.title {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 
@@ -268,19 +268,19 @@ h1.title {
 
 /* Typography for node titles */
 h2.title {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 /* Colors and styles for linked node titles, ie. teaser listing at /node */
 h2.title a:link,
 h2.title a:visited {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 h2.title a:hover,
 h2.title a:focus,
 h2.title a:active {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 /* Separators and padding for node teasers */
@@ -345,7 +345,7 @@ div.content-help-inner div.help {
 /* Default block title styles
 /-------------------------------------------------------------- */
 h2.block-title {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 
@@ -591,7 +591,7 @@ div.comment {
 
 /* Subject (title) of each comment */
 div.comment h3.title {
-  font-family: $col-gill-sans;
+  font-family: $typ-gill-sans;
 }
 
 /* Links (edit, reply, delete) for each comment */
