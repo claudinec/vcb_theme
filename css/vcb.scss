@@ -1,3 +1,10 @@
+/* vcb.scss based on Fusion Starter
+=================================== */
+
+/* Variables
+------------ */
+
+$gill-sans: "Gill Sans", sans-serif;
 
 /* Basic Typography & Colors
 -------------------------------------------------------------- */
@@ -240,7 +247,7 @@ caption {
 /-------------------------------------------------------------- */
 /* Page and full node titles */
 h1.title {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 
@@ -256,19 +263,19 @@ h1.title {
 
 /* Typography for node titles */
 h2.title {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 /* Colors and styles for linked node titles, ie. teaser listing at /node */
 h2.title a:link,
 h2.title a:visited {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 h2.title a:hover,
 h2.title a:focus,
 h2.title a:active {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 /* Separators and padding for node teasers */
@@ -333,7 +340,7 @@ div.content-help-inner div.help {
 /* Default block title styles
 /-------------------------------------------------------------- */
 h2.block-title {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 
@@ -579,7 +586,7 @@ div.comment {
 
 /* Subject (title) of each comment */
 div.comment h3.title {
-  font-family: "Gill Sans", sans-serif;
+  font-family: $gill-sans;
 }
 
 /* Links (edit, reply, delete) for each comment */
