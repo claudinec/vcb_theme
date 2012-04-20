@@ -4,7 +4,7 @@ base theme = fusion_core
 core = 7.x
 engine = phptemplate
 
-stylesheets[all][] = css/fusion-starter-style.css
+stylesheets[all][] = css/vcb.scss
 
 ; --------------------------------------------------------------------------------
 ; This provides support for the Fusion Accelerator suite.  
