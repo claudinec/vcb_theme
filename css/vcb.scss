@@ -4,11 +4,11 @@
 /* Variables
 ------------ */
 
-$typ-gill-sans: "Gill Sans", sans-serif;
-
 $col-dark-blue:  #002D6A;    /* RGB 0, 45, 106 */
 $col-light-blue: #00A4E4;    /* RGB 0, 164, 228 */
 $col-pink:       #EC008C;    /* RGB 236, 0, 140 */
+
+$typ-gill-sans: "Gill Sans", sans-serif;
 
 /* Basic Typography & Colors
 -------------------------------------------------------------- */
@@ -124,7 +124,6 @@ caption {
 /* Add general styles for main menu here, such as typography, borders, floats,
   or spacing above/below */
 .main-menu {
-    background-color: $col-light-blue;
 }
 
 /* styles for Superfish main menu */
@@ -204,6 +203,14 @@ caption {
 .sidebar-first {
 }
 
+#block-system-main-menu li {
+    background-color: $col-light-blue;
+    list-style-type: none;
+    margin: 0.6em;
+    padding: 0.3em;
+    text-transform: uppercase;
+}
+
 .sidebar-second {
 }
 
@@ -252,6 +259,7 @@ caption {
 /-------------------------------------------------------------- */
 /* Page and full node titles */
 h1.title {
+  color: $col-light-blue;
   font-family: $typ-gill-sans;
 }
 
