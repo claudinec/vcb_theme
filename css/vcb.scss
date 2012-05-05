@@ -5,7 +5,8 @@
 ------------ */
 
 $col-dark-blue:  #002D6A;    /* RGB 0, 45, 106 */
-$col-light-blue: #00A4E4;    /* RGB 0, 164, 228 */
+/* $col-light-blue: #00A4E4;    RGB 0, 164, 228 */
+$col-light-blue: #00ADE8;    /* RGB 0, 173, 232 */
 $col-pink:       #EC008C;    /* RGB 236, 0, 140 */
 
 $typ-gill-sans: "Gill Sans", sans-serif;
@@ -201,11 +202,12 @@ caption {
 -------------------------------------------------------------- */
 /* Sidebar widths can be controlled through theme settings */
 .sidebar-first {
+    list-style-type: none;
 }
 
 #block-system-main-menu li {
     background-color: $col-light-blue;
-    list-style-type: none;
+    color: $col-dark-blue;
     margin: 0.6em;
     padding: 0.3em;
     text-transform: uppercase;
