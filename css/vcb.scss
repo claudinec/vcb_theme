@@ -143,6 +143,7 @@ caption {
 
 /* These are the top level menu items, add border-right here for separators */
 .main-menu-inner ul.sf-menu li {
+    list-style-type: none;
 }
 
 /* Add border-right: 0; here to remove separator on last menu item */
@@ -202,12 +203,11 @@ caption {
 -------------------------------------------------------------- */
 /* Sidebar widths can be controlled through theme settings */
 .sidebar-first {
-    list-style-type: none;
 }
 
 #block-system-main-menu li {
     background-color: $col-light-blue;
-    color: $col-dark-blue;
+    color: white;
     margin: 0.6em;
     padding: 0.3em;
     text-transform: uppercase;
