@@ -206,10 +206,14 @@ caption {
 
 #block-system-main-menu li {
     background-color: $col-light-blue;
-    color: #FFFFFF;
     margin: 0.6em;
     padding: 0.3em;
     text-transform: uppercase;
+}
+
+#block-system-main-menu li a:link, 
+#block-system-main-menu li a:visited {
+    color: white;
 }
 
 .sidebar-second {
