@@ -121,9 +121,3 @@ settings[grid_adjusted_regions_fluid][content][] = sidebar_second
 ; Regions inside a parent group to subtract toget remaining width
 settings[grid_adjusted_groups_fluid][content_group][] = sidebar_second
 
-; Information added by drupal.org packaging script on 2011-12-20
-version = "7.x-2.0-beta1"
-core = "7.x"
-project = "fusion"
-datestamp = "1324339864"
-
